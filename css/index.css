@@ -1,3 +1,23 @@
+.blog .inicio-post {
+    background-color: #FFF;
+    position: absolute;
+    top: 4em;
+    right: 4em;
+    left: 30%;
+    height: 8em;
+    padding: 1.5em;
+    color: #000;
+}
+.blog .mais-recente {
+    background-color: #F2FFFC;
+}
+
+.blog .mais-recente a {
+    color: #F26;
+}
+.blog li {
+    width: 30%;
+}
 .foto-home {
     height: 200px;
 }
@@ -66,6 +86,7 @@
     background-color: #999;
     color: #FFF;
     border-bottom: .5em solid #851944;
+    position: relative;
 }
 .blog small {
     position: relative;
