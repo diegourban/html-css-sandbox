@@ -20,6 +20,15 @@
 }
 .foto-home {
     height: 200px;
+    /*border-radius: 50%;*/
+    /*border-radius: 0 50%;*/
+    /*
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;*/
+    /*border-radius: 10% 50% / 50% 10%;*/
+    -webkit-border-radius: 10% 50% / 50% 10%;
+    -moz-border-radius: 10% 50% / 50% 10%;
+    border-radius: 10% 50% / 50% 10%;
 }
 .saudacao p {
     font-size: 1.5em;
