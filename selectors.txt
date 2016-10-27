@@ -1,0 +1,11 @@
+tag
+#id
+.class
+ancester ancester
+brother ~ brother
+brother + next brother
+father > son
+
+
+~ after: li ~ li
++ right after: li + li
