@@ -1,7 +1,6 @@
 .foto-home {
     height: 200px;
     border-radius: 50%;
-    box-shadow: 0 0 1em #000;
 }
 .saudacao p {
     font-size: 1.5em;
@@ -38,7 +37,6 @@
     margin: 2em auto;
     display: block;
     text-align: center;
-    box-shadow: 0 0 1em #000, inset 0 0 .5em #FFF;
 }
 .secao-inicio {
     padding: 2em;
@@ -47,19 +45,13 @@
     font-size: 3em;
     text-transform: uppercase;
     margin-bottom: .5em;
-    text-shadow: 3px 3px #000;
+    text-shadow: 2px 2px #000;
 }
 .trabalhos {
     background-color: #3C1D3D;
     border-top: .5em solid #000;
     border-bottom: .5em solid #000;
-    background-image: linear-gradient(135deg,
-                        transparent,
-                        transparent 14px,
-                        rgba(0, 0, 0, 0.1) 14px,
-                        rgba(0, 0, 0, 0.1) 15px,
-                        transparent 15px,
-                        transparent);
+    background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0,0,0,.1) 14px, rgba(0,0,0,.1) 15px, transparent 15px, transparent);
     background-size: 20px 20px;
     background-attachment: fixed;
 }
@@ -81,17 +73,11 @@
 .blog {
     background-color: #999;
     position: relative;
-    color: #FFF;
-    border-bottom: .5em solid #851944;
-    background-image: linear-gradient(45deg,
-                        transparent,
-                        transparent 14px,
-                        rgba(255, 255, 255, 0.1) 14px,
-                        rgba(255, 255, 255, 0.1) 15px,
-                        transparent 15px,
-                        transparent);
+    background-image: linear-gradient(45deg, transparent, transparent 14px, rgba(255,255,255,.1) 14px, rgba(255,255,255,.1) 15px, transparent 15px, transparent);
     background-size: 20px 20px;
     background-attachment: fixed;
+    color: #FFF;
+    border-bottom: .5em solid #851944;
 }
 .blog small {
     position: relative;
@@ -144,85 +130,83 @@ body {
     font-family: "Shadows Into Light", cursive;
     font-weight: bold;
     font-size: 400%;
-    color: #D5447E;
+    color: rgba(255, 127, 127, .5);
     position: absolute;
 }
 .eficiencia {
     top: 50%;
     left: 60%;
-    opacity: .3;
     -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
 }
 .boas-praticas {
     top: 70%;
     left: 20%;
-    opacity: .3;
     -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
+    opacity: .3;
 }
 .codigo-limpo {
     top: 45%;
     left: 25%;
-    opacity: .6;
     -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
+    opacity: .6;
 }
 .css3 {
     top: 55%;
     left: 35%;
-    opacity: .6;
     -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
+    opacity: .6;
 }
 .html5 {
     top: 30%;
     left: 65%;
-    opacity: .6;
     -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+    opacity: .6;
 }
 .javascript {
     top: 15%;
     left: 60%;
-    opacity: .3;
     -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
 }
 .acessibilidade {
     top: 30%;
     left: 35%;
-    opacity: .8;
     -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
+    opacity: .8;
 }
 .responsivo {
     top: 40%;
     left: 40%;
-    opacity: .8;
     -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
+    opacity: .8;
 }
 .otimizacoes {
     top: 70%;
     left: 65%;
-    opacity: .6;
     -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
+    opacity: .6;
 }
 .agilidade {
     top: 75%;
     left: 35%;
-    opacity: .3;
     -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
+    opacity: .3;
 }
 .design {
     top: 40%;
     left: 60%;
-    opacity: .6;
     -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+    opacity: .6;
 }
 .titulo-principal {
     -webkit-transform-style: preserve-3d;
