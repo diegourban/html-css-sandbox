@@ -6,6 +6,27 @@ brother ~ brother
 brother + next brother
 father > son
 
-
 ~ after: li ~ li
 + right after: li + li
+
+pseudoclasses:
+
+estruturais
+:first-child
+:last-child
+:nth-child
+:nth-of-type
+
+dinâmicas:
+:hover
+:focus
+:active
+:checked
+
+
+Escolhendo o seletor:
+
+poder: 
+frágil: quebra se a estrutura mudar
+legibilidade: entender o que a classe/pseudoclasse faz
+desempenho: desempenho do navegar ao processar esse estilo
