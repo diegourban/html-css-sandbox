@@ -1,0 +1,35 @@
+padding em porcento, pega da largura do pai desse elemento
+
+rem é o tamanho da altura da fonte
+não faz sentido marcar larguras com base na rem
+
+ch = largura de um caracter
+1 ch = largura do caracter 0
+
+alturas usar rem/em
+larguras, usar ch
+
+px sempre px
+em com base na medida da fonte desse elemento
+rem com base na medida da fonte do navegador
+
+rem é possível controler pelas configurações do navegador ou pelo font-size do elemento html
+
+Eu uso:
+
+% pra maioria dos layouts e coisas proporcionais entre si (ex: colunas, grids etc)
+
+em e rem quando é algo tipografico, relacionado a texto. (ex: a margem do titulo tem a ver com o tamanho do titulo)
+
+ch nunca usei, nao vejo vantagem
+
+px para coisas mais fixas. (ex: largura de uma borda, as vezes o tamanho de um logo)
+
+A principal diferença entre as medidas em e rem é que, enquanto a medida rem tem um único valor para a página inteira, a medida em varia de valor de acordo com o elemento em que é usada, de acordo com o tamanho de fonte desse elemento.
+
+Por essa diferença, a medida em torna-se bastante interessante quando queremos que uma mudança de tamanhos se propague pela página. Um exemplo disso seria aumentar o tamanho da fonte em um determinado elemento e ver seus filhos terem a fonte aumentada também, para ajustar de acordo.
+
+Já a medida rem é interessante quando esse comportamento não é desejado, mas ainda deseja-se atrelar um tamanho ao tamanho de fonte usado pelo navegador. Um exemplo disso seria definir um padding numa classe genérica, que pode ser utilizada tanto num h1 como num p. Normalmente não queremos que o padding do h1 seja maior que o do p nesses casos.
+
+
+A medida porcentagem varia de acordo com a propriedade na qual é usada. Se usada na propriedade font-size, é relativa ao tamanho de fonte do pai do elemento. Se usada nas propriedades margin, padding e width, é relativa à largura do pai do elemento. Por fim, se usada na propriedade height, é relativa à altura do pai do elemento.
