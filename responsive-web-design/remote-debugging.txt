@@ -1,0 +1,5 @@
+1. Connect your smartphone with usb.
+2. Access some website on your smartphone with google chrome browser.
+3. At your desktop, open your chrome browser and access chrome://inspect
+4. At your smartphone, go to developer options and enable usb debug.
+5. At your desktop browser, connect with the device found.

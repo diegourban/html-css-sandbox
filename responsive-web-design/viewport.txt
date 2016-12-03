@@ -1,0 +1,10 @@
+For default, the mobile browsers fakes its width to be equal do a desktop width
+You need to add a meta tag to say to the client that the page is responsive and adapted to small devices.
+Specific resolution:
+<meta name="viewport" content="width=320px"> 
+
+Native device width:
+<meta name="viewport" content="width=device-width">
+
+Fix for iOS rotation:
+<meta name="viewport" content="width=device-width, initial-scale=1">
