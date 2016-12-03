@@ -1,0 +1,42 @@
+@media (min-width: 400px) {
+	// only will use this code if the min-width of the screen is 400px
+	// its some kind of conditional structure
+}
+
+some other media-queries:
+min-width
+max-width
+width
+height
+device-width
+device-height
+orientation: portrait
+orientation: landscape
+...
+
+-----
+
+Use content breakpoints instead of default min/max sizes tables!
+
+-----
+MQ desktop-first:
+h1, h2 {
+	float: left;
+}
+
+@media (max-width: 400px) {
+	h1, h2 {
+		float: none;
+	}	
+}
+
+-----
+MQ mobile-first:
+
+/*float: none; is not needed, because none is the default value, so it will handle small devices automatically */ 
+
+@media (min-width: 400px) {
+	h1, h2 {
+		float: left;
+	}	
+}
