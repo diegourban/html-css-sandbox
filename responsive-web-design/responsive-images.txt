@@ -1,0 +1,46 @@
+Device Independent Pixel -> Phyical Pixel
+The browser converts the DIP to Pixel.
+
+For exemple:
+.photo {
+  width: 100px;
+}
+
+On a normal device the width would be 100px, on a retina display the width would be transformed to 200px.
+
+Device Pixel Ratio(dPR)
+
+dPR = Pixels / DIPs
+1 = 100 / 100 (normal)
+2 = 200 / 100 (retina)
+
+----------
+Media query based on dPR:
+@media (resolution: 1ppx) {
+
+}
+@media (resolution: 2ppx) {
+
+}
+@media (min-resolution: 1.5ddpx) {
+
+}
+You can use the media query based on the resolution to avoid pixelized images.
+Performance, Visual Quality
+
+New browsers: <img src="logo.png" srcset="logohd.png 2x, logo.png 1x">
+
+Future:
+<picture>
+	<source media="(min-width: 600px)" src="completa.jpg">
+	<source media="(min-width: 1000px)" src="grande.jpg">
+
+	<source src="recorte.jpg">
+	
+	<img src="fallback.jpg">
+</picture>
+
+Compressive Images:
+Good size
+Low Quality
+Low Size
