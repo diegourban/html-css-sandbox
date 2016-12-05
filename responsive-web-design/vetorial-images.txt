@@ -1,0 +1,11 @@
+<img src="logo.svg" onerror="this.src='logo.png'; this.onerror=null">
+
+-----
+
+.svg .logo {
+    background: url(logo.svg) no-repeat;
+}
+
+.no-svg .logo {
+    background: url(logo.png) no-repeat;
+}
