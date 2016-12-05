@@ -1,0 +1,12 @@
+Content parity
+
+All the desktop content must exist on a mobile version.
+There is no mobile context, it is not because the mobile user must access less things.
+
+You should prioritize the content!
+
+Mobile first!
+
+Touch first! hover is bad..
+
+Buttons should have, in average, 50px to minimize click errors.
