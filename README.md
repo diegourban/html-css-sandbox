@@ -7,6 +7,12 @@ Open `personal-page/index.html` at your browser.
 
 
 ## responsive-web-design
-A responsive page using best practices o HTML5 + CSS3 and just a little bit of JS.
+A simple responsive page using best practices o HTML5 + CSS3 and just a little bit of JS.
 ### Usage
 Open `responsive-web-design/index.html` at your browser.
+
+
+## responsive-SPA
+Another responsive Simple Page Application using best practices o HTML5 + CSS3 and just a little bit of JS.
+### Usage
+Open `responsive-SPA/index.html` at your browser.
