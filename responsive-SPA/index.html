@@ -6,60 +6,103 @@
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="estilos.css">
 	</head>
+
 	<body>
-		<div class="container">
+		<section id="sobre-nos" class="container">
 			<h2>Sobre Nós</h2>
-			<img class="img-responsive" src="img/empresa.jpg" alt="">
+			<div class="row">
+				<img class="img-responsive col-sm-6" src="img/empresa.jpg" alt="">
 
-			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-			    <div class="panel panel-default">
-			        <div class="panel-heading" role="tab" id="headingOne">
-			            <h4 class="panel-title">
-			                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-			                    Desde 1935
-			                </a>
-			            </h4>
-			        </div>
-			        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-			            <div class="panel-body">
-			                A TopCasaFina Arquitetura está no mercado desde 1935 trazendo uma série de projetos de qualidade para seus clientes e mudando suas vidas para sempre.
-			                Nossa empresa construiu o palácio Dionísio para Don Pedro IX que ninguém nunca ouviu falar.
-			            </div>
-			        </div>
-			    </div>
+				<div class="panel-group col-sm-6" id="paineis-sobre">
+					<div class="panel panel-default">
+						<div class="panel-heading" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">
+							<h3 class="panel-title">Desde 1935</h3>
+						</div>
 
-			    <div class="panel panel-default">
-			        <div class="panel-heading" role="tab" id="headingTwo">
-			            <h4 class="panel-title">
-			                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-			                    Preços acessíveis
-			                </a>
-			            </h4>
-			        </div>
-			        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-			            <div class="panel-body">
-			                Com projetos a partir de R$ 5.000.000,00 a nossa empresa procura abranger os clientes mais ricos do mundo.
-			            </div>
-			        </div>
-			    </div>
+						<div class="collapse in" id="primeiro-paragrafo">
+							<div class="panel-body">
+								Desde 1935 trazendo casas, mansões e prédios lindos para o mundo
+							</div>
+						</div>
+					</div>
 
-			    <div class="panel panel-default">
-			        <div class="panel-heading" role="tab" id="headingThree">
-			            <h4 class="panel-title">
-			                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-			                    Alegria em colaborar para um mundo mais bonito
-			                </a>
-			            </h4>
-			        </div>
-			        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-			            <div class="panel-body">
-			                Os projetos da TopCasaFina Arquitetura são sempre acompanhados dos melhores profissionais de decoração para que
-			                o produto final fique lindo.
-			            </div>
-			        </div>
-			    </div>
+					<div class="panel panel-default">
+						<div class="panel-heading" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">
+							<h3 class="panel-title">Alegria em colaborar para um mundo mais bonito</h3>
+						</div>
+
+						<div id="segundo-paragrafo" class="collapse">
+							<div class="panel-body">
+								Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">
+							<h3 class="panel-title">Mais de 300 prêmios em design e em conforto.</h3>
+						</div>
+
+						<div id="terceiro-paragrafo" class="collapse">
+							<div class="panel-body">
+								Mais de 5 milhões de clientes satisfeitos em todo o mundo.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="jumbotron">
+			<div class="container">
+				<h3>Mais de 300 prêmios em design e em conforto.</h3>
+				<p>Mais de 5 milhões de clientes satisfeitos em todo o mundo.</p>
 			</div>
 		</div>
+		
+		<section class="container">
+			<h2>Nossos Projetos</h2>
+
+			<figure class="thumbnail">
+				<img src="img/projetos/casa-castelo.png" alt="Foto da Casa Castelo">	
+				<figcaption class="caption">
+					<h3>Casa Castelo</h3>
+					<p>A Casa Castelo é o últumo lançamento do TopCasaFina Arquitetura, feita para um monge.</p>
+				</figcaption>
+			</figure>
+
+			<figure class="thumbnail">
+				<img src="img/projetos/casa-lago.png" alt="Foto da Casa Lago">	
+				<figcaption class="caption">
+					<h3>Casa Lago</h3>
+					<p>A Casa Lago foi um lar de inúmeras pessoas que conheciam o presidente da época.</p>
+				</figcaption>
+			</figure>	
+
+			<figure class="thumbnail">
+				<img src="img/projetos/mercado-marapira.png" alt="Foto do ercado Marapira">	
+				<figcaption class="caption">
+					<h3>Mercado Marapira</h3>
+					<p>O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.</p>
+				</figcaption>
+			</figure>	
+
+			<figure class="thumbnail">
+				<img src="img/projetos/palacio-dionisio.png" alt="Foto do Palácio Dionísio">	
+				<figcaption class="caption">
+					<h3>Palácio Dionísio</h3>
+					<p>O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do mundo.</p>
+				</figcaption>
+			</figure>	
+
+			<figure class="thumbnail">
+				<img src="img/projetos/residencia-ludi.png" alt="Foto da Residência Ludi">	
+				<figcaption class="caption">
+					<h3>Residência Ludi</h3>
+					<p>A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing.</p>
+				</figcaption>
+			</figure>	
+		</section>
 
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
